@@ -1,0 +1,11 @@
+div {
+    border : 5px solid red;
+    /* margin : 50px; */
+    /* margin-right : 50px;
+    margin-left : 150px;
+    margin-top : 10px;
+    margin-bottom : 50px; */
+    /* margin : 50px 150px 20px; */
+    width : 300px;
+    margin : 0 auto 100px;
+}

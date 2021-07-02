@@ -1,0 +1,35 @@
+input[type="submit"] {
+    background-color: blue;
+}
+
+input[type="password"] {
+    background-color: green;
+}
+
+a[title*="no"] {
+    color : blue;
+}
+
+/* a[title$="another"] {
+    color : red;
+}
+ */
+/* a[title^="top"] {
+    color : green;
+} */
+
+/* a[title|="top"] {
+    color : red;
+} */
+
+/* a[title~="website"] {
+    color : green;
+}
+
+a[target="_self"] {
+    background-color: yellow !important;
+} */
+
+/* a[target] {
+    background-color: red;
+} */

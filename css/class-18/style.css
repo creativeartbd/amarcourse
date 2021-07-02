@@ -1,0 +1,19 @@
+p {
+    /* font-family : "amar course", Georgia, arial; */
+    /* font-family: 'Raleway', sans-serif;
+    font-style : oblique;
+    font-weight : 600;
+    font-variant : normal;
+    font-size : 5vw; */
+
+    font : italic small-caps bold 16px/12px arial;
+
+    /* 1em = browser default font size = 16px 
+    1 em = 16px */
+
+    /* unit = px, %, em, vw */
+
+    /* 
+    font-style font-variant font-weight font-size/line-height font-family 
+    */
+}

@@ -1,0 +1,12 @@
+div {
+    border : 5px solid red;
+    width : 450px;
+    padding : 10px;
+    margin : 10px;
+}
+
+
+/* actual width = width + left padding + right padding + left margin + righ margin + left border + right border
+
+
+        550px    = 500 + 10 + 10 + 10 + 10 + 5 + 5  */

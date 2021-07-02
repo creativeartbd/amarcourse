@@ -1,0 +1,26 @@
+h3 {
+    /* border-style : dashed solid;
+    border-width : 5px 15px 30px; */
+    /* border-color : green yellow; */
+    /* border-right-color : brown;
+    border-bottom-color: lawngreen; */
+    border : 5px solid purple;
+    /* border-radius: 15px; */
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+/* 
+name, rgb, hex, hsl, 
+
+dotted, dashed, solid, double, grove, ridge, inset, outset, note, hidden
+
+top right bottom left
+top bottom 
+right left 
+top = 5px
+right = 15px
+bottom = 30px;
+left = 15px
+
+*/

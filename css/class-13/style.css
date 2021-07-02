@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    border : 3px solid green;
+    width : 300px;
+    margin : 0 auto;
+    padding : 50px;
+    box-sizing: border-box;
+}
+
+div {
+    border : 5px dashed yellow;
+    margin : 50px;
+    /* padding : 20px 100px; */
+    padding : 50px;
+    background-color : blue;
+    color : white;
+}
+
+p {
+    border : 3px solid white;
+    padding : inherit;
+}

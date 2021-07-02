@@ -1,0 +1,31 @@
+/* p {
+    color : red;
+} */
+
+* {
+    font-size : 35px;
+}
+
+#unique {
+    color : orange;
+}
+
+.world {
+    color : blue;
+}
+
+h1 {
+    color : red;
+}
+
+h2 {
+    color : blue;
+}
+
+h4 {
+    color : orange;
+}
+
+h1, h2, h4 {
+    font-size: 45px;
+}

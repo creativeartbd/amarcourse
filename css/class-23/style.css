@@ -1,0 +1,56 @@
+div {
+    border : 1px solid red;
+    padding : 20px;
+    width : 200px;
+    display : inline-block;
+    color : #fff;
+}
+
+.one {
+    background-color: orange;
+}
+
+.two {
+    /* display: none; */
+    visibility: hidden;
+    background-color: purple;
+}
+
+.three {
+    background-color: blue;
+}
+
+span {
+    background-color: red;
+    color : #fff;
+    display : inline-block;
+    width : 100px; 
+    height : 100px;
+}
+
+/* span, a, img {
+    display: block;
+} */
+
+/* 
+inline, block, contents, flex, grid, inline-block, inline-flex, inline grid, inline-table, list-item, table, table-caption, initial,
+
+*/
+
+
+ul li {
+    list-style-type: none;
+    display : inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    background-color : lightgreen;
+    padding : 15px;
+    color : #000;
+    border-radius: 5px;
+}
+
+ul li a:hover {
+    background-color: red;
+}

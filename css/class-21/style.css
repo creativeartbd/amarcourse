@@ -1,0 +1,6 @@
+ul li {
+    /* list-style-type : upper-roman; */
+    /* list-style-image: url("images/check.png");
+    list-style-position: outside; */
+    list-style : square outside url("images/check.png")
+}

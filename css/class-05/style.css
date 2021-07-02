@@ -1,0 +1,102 @@
+input:valid {
+    border-bottom: 10px solid green;    
+}
+
+:target {
+    font-style: italic;
+}
+
+:root {
+    background-color: yellow;
+}
+
+input:required {
+    border-bottom: 3px solid red;
+}
+
+input:read-write {
+    margin-bottom: 10px;
+}
+
+input:read-only {
+    background-color: yellow;
+}
+
+input:out-of-range {
+    background-color: purple;
+}
+
+/* input:optional {
+    background-color: lightblue;
+} */
+
+div p:only-child {
+    border : 5px solid red;
+}
+
+div p:nth-child(6) {
+    background-color: purple;
+}
+
+div :not(p) {
+    color : blue;
+}
+
+div p:last-child {
+    background-color: green;
+}
+
+/* input:invalid {
+    background-color: red;
+} */
+
+input:in-range {
+    border-right: 10px solid green;
+}
+
+input:focus {
+    border : 3px solid red;
+}
+
+div p:first-child {
+    background-color: orange;
+}
+
+/* input:enabled {
+    background-color: rgb(181, 255, 181);
+} */
+
+p:empty {
+    background-color: red;
+    width: 100px;
+    height: 20px;
+}
+
+input:disabled {
+    background-color: rgb(251, 133, 133);
+}
+
+input:checked {
+    width: 100px;
+    height : 100px;
+}
+
+/* Unvisited link */
+a:link {
+    color :green;
+}
+
+/* visited link */
+a:visited {
+    color : red;
+}
+
+/* Mouse over link */
+a:hover {
+    color : yellow;
+}
+
+/* Selected link */
+a:active {
+    color : blue;
+}

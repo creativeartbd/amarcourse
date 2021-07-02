@@ -1,0 +1,66 @@
+body {
+    background-color :#eee;
+    font-size: 15px;
+    line-height: 150%;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width : 1200px;
+    margin : 0 auto;
+}
+
+header {
+    width : 100%;
+    background-color: #ddd;
+    overflow: hidden;
+    padding-left : 15px;
+    padding-right : 15px;
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+main {
+    width : 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+main section {
+    float: left;
+    width : 75%;
+    background-color: lightgreen;
+    padding : 15px;
+}
+
+main aside {
+    float: right;
+    width : 25%;
+    background-color:orange;
+    padding : 15px;
+}
+
+footer {
+    background-color: lightblue;
+    text-align: center;
+    padding : 15px;
+}

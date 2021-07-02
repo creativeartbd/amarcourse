@@ -1,0 +1,30 @@
+/* selector::pseudo-element {
+    property : property value;
+} */
+::selection {
+    color : red;
+    background-color: yellow;
+}
+
+::marker {
+    color : purple;
+    font-size: 30px;
+}
+
+h3::before {
+    content : 'Hello ';
+}
+
+h3::after {
+    content : ' Morning.';
+}
+
+p::first-letter {
+    color : green;
+    font-size: 100px;
+}
+
+p::first-line {
+    color : red;
+    font-size: 20px;
+}

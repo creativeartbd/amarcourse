@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All HTML Tag (Part-3)</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2 {
+            color : red;
+        }
+        thead {
+            color : green;
+        }
+        tbody {
+            color : orange;
+        }
+        tfoot {
+            color : blue;
+        }
+    </style>
+</head>
+<body>
+<h2 style="background-color: aquamarine; text-align: center; padding-bottom: 10px; padding-top: 10px;">All HTML Tag (Part-3)</h2>
+<!-- ========================================= -->
+
+<p>This is veryyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy<wbr>yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy long text</p>
+
+<hr>
+<p>Our Office time is <time>10:00</time> to <time>22:00</time></p>
+
+<hr>
+<form action="">
+    <table border="1">
+        <tr>
+            <td>Full Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td valign="top">Your Biodata</td>
+            <td><textarea name="biodata" rows="5" cols="25"></textarea></td>
+        </tr>
+    </table>
+</form>
+
+<hr>
+<button onclick="showContent()">Show the content</button>
+<template>
+    <h2>Here is the template content</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates vel rem cupiditate quod molestiae cumque voluptatibus, quia sequi amet, beatae asperiores quam. Suscipit accusantium doloremque iste omnis animi adipisci explicabo!</p>
+</template>
+
+<hr>
+<table border="1" cellpadding="10" cellspacing="10" style="width: 100%;">
+    <thead>
+        <tr>
+            <th>Serial</th>
+            <th>Name</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Shibbir Ahmed</td>
+            <td>Dhanmondi 15, Dhaka</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Shibbir Ahmed</td>
+            <td>Dhanmondi 15, Dhaka</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Shibbir Ahmed</td>
+            <td>Dhanmondi 15, Dhaka</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Serial</th>
+            <th>Name</th>
+            <th>Address</th>
+        </tr>
+    </tfoot>
+</table>
+
+<hr>
+<table border="1" cellpadding="10" cellspacing="15">
+    <tr>
+        <th>Name</th>
+        <th>Roll No</th>
+        <th>Address</th>
+    </tr>
+    <tr>
+        <td rowspan="2">First column</td>
+        <td>Second Column</td>
+        <td>Second Column</td>
+    </tr>
+    <tr>
+        <!-- <td>Third column</td> -->
+        <td colspan="2" align="center">Fourth Column</td>
+    </tr>
+</table>
+
+<hr>
+<h3>2<sup>3</sup></h3>
+
+<hr>
+<details>
+    <summary>About Yourself</summary>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aspernatur dolores modi praesentium dignissimos harum voluptate? Perspiciatis asperiores illum a, nisi ipsum quis velit nulla voluptatem sed illo id quia.</p>
+</details>
+
+<hr>
+<h2>H<sub>2</sub>O</h2>
+<p>He<sub>l</sub>lo</p>
+
+<hr>
+<p>Good <strong>Morning.</strong></p>
+
+<hr>
+<p>A quick brown fox <span style="color: red;">jumps</span> over the laz dog.</p>
+
+<hr>
+<audio controls>
+    <source src="dukho-bilash.mp3" type="audio/mp3">
+</audio>
+
+<hr>
+<p>Hello there, <small>How</small> are you?</p>
+
+<hr>
+<label for="country">Your country</label>
+<select name="" id="country">
+    <option value="">Bangladesh</option>
+    <option value="">India</option>
+    <option value="">Srilanka</option>
+    <option value="">America</option>
+</select>
+
+<hr>
+<section>
+    <article>
+        <h2>this is my first artile</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aperiam ex ullam? Ullam eligendi voluptatum accusantium quibusdam? Atque, minus. Animi magni laborum accusamus sint reprehenderit, amet dicta exercitationem nostrum. Sapiente?</p>
+    </article>
+</section>
+
+<hr>
+<p>This message is comming from my computer</p>
+<p><samp>File is not found.</samp></p>
+
+<hr>
+<s>This text is not correct</s>
+
+<script>
+   console.log('Hello there');
+   function showContent() {
+       var template = document.getElementsByTagName("template")[0];
+       var clone = template.content.cloneNode(true);
+       document.body.appendChild(clone);
+   }
+</script>
+
+</body>
+</html>

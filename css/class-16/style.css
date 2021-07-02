@@ -1,0 +1,17 @@
+div {
+    width : 500px;
+    border : 5px solid green;
+    margin : 30px auto 0 auto;
+    padding : 20px;
+    /* outline-style : dashed;
+    outline-width : medium;
+    outline-color : lightgreen; */
+    outline : medium dashed lightgreen;
+    outline-offset: 20px;
+}
+
+/* 
+
+dotted, dashed, solid, double, grove, ridge, inset, outset, none, hidden
+
+*/

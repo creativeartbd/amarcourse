@@ -1,0 +1,19 @@
+div {
+    border : 1px solid red;
+}
+
+div p {
+    color : red;
+}
+
+div > p {
+    font-size : 30px;
+}
+
+div + h2 {
+    color : blue;
+}
+
+div ~ h2 {
+    font-style: italic;
+}

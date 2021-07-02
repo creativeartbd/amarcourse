@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HTML Form§
+        </title>
+    </head>
+    <body>
+    
+        <form action="process.php" method="POST" enctype="multipart/form-data">
+            <div>
+                <label for="firstname">Your First Name</label> <br/>
+                <input type="text" id="firstname" name="firstname" required placeholder="Enter Your First Name">
+            </div>
+            <div>
+                <label for="email">Your Email Address</label><br>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="password">Password</label> <br/>
+                <input type="password" name="password">
+            </div>
+            <div>
+                <label for="address">Address</label> <br/>
+                <input type="text" id="address" value="address"  disabled>
+            </div>
+            <div>
+                <label for="biodata">Your Bio Data</label><br/>
+                <textarea name="biodata" id="biodata" cols="40" rows="3"></textarea>
+            </div>
+            <div>
+                <label for="age">Your Age</label> <br/>
+                <input type="number" id="age" name="age" min="18" max="30" step="2">
+            </div>
+            <div>
+                <label for="skills">Your Skills</label> <br/>
+                <input type="checkbox" name="php" value="PHP" id="skills"> PHP 
+                <input type="checkbox" name="html" value="HTML" id="skills"> HTML 
+                <input type="checkbox" name="css" value="CSS" id="skills"> CSS 
+            </div>
+            <div>
+                <label for="gender">Your Gender</label> <br>
+                <input type="radio" id="gender" value="male" name="gender"> Male
+                <input type="radio" id="gender" value="female" name="gender"> Female
+            </div>
+            <div>
+                <label for="color">Your Color</label> <br/>
+                <input type="color" name="color">
+            </div>
+            <div>
+                <label for="dob">Date of Birth</label> <br>
+                <input type="date" name="dob" id="dob">
+            </div>
+            <div>
+                <label for="country">Country</label> <br/>
+                <select name="country" id="country">
+                    <option value="bd">Bangladesh</option>
+                    <option value="in">India</option>
+                    <option value="usa">America</option>
+                </select>
+            </div>
+            <div>
+                <label for="file">Upload your file</label> <br/>
+                <input type="file" name="file" id="file">
+            </div>  
+            <div>
+                <hr>
+                <input type="hidden" name="secret" value="skjdfjsd;lfkjs">
+                <input type="reset" name="reset" value="reset">
+                <input type="submit" name="submit" value="Registration">
+            </div>
+        </form>
+    </body>
+</html>
