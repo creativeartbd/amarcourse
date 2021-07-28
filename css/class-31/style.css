@@ -1,0 +1,73 @@
+.firefox {
+    background-image : url("mySprite.png");
+    background-repeat : no-repeat;
+    height : 50px;
+    line-height : 50px;
+    text-align : center;
+    width : 50px;
+    color : yellow;
+}
+
+.firefox:hover {
+    background-position : 0 -50px;
+}
+
+.chrome {
+    background-image : url("mySprite.png");
+    background-repeat : no-repeat;
+    height : 50px;
+    width : 50px;
+    background-position : 0 -100px;
+    line-height : 50px;
+    text-align : center;
+    color : yellow;
+}
+
+.chrome:hover {
+    background-position : 0 -150px;
+}
+
+.internet {
+    background-image : url("mySprite.png");
+    background-repeat : no-repeat;
+    height : 50px;
+    width : 50px;
+    background-position : 0 -200px;
+    line-height : 50px;
+    text-align : center;
+    color : yellow;
+}
+
+.internet:hover {
+    background-position : 0 -250px;
+}
+
+.safari {
+    background-image : url("mySprite.png");
+    background-repeat : no-repeat;
+    height : 50px;
+    width : 50px;
+    background-position : 0 -300px;
+    line-height : 50px;
+    text-align : center;
+    color : yellow;
+}
+
+.safari:hover {
+    background-position : 0 -350px;
+}
+
+.opera {
+    background-image : url("mySprite.png");
+    background-repeat : no-repeat;
+    height : 50px;
+    width : 50px;
+    background-position : 0 -400px;
+    line-height : 50px;
+    text-align : center;
+    color : yellow;
+}
+
+.opera:hover {
+    background-position : 0 -450px;
+}

@@ -1,0 +1,48 @@
+img {
+    float: left;
+}
+
+div {
+    width : 100px; 
+    height : 100px;
+}
+
+
+.div1 {
+    background-color: red;
+    float: left;
+}
+
+.div2 {
+    background-color: yellow;
+    float: left;
+}
+
+.div3 {
+    background-color: brown;
+    float: left;
+    /* clear : both; */
+}
+
+.div4 {
+    background-color: pink;
+    float: left;
+}
+
+.div5 {
+    background-color: blue;
+    float: left;
+}
+
+.div6 {
+    background-color: green;
+    float: left;
+}
+
+img {
+    clear: left;
+}
+
+p {
+    clear: left;
+}

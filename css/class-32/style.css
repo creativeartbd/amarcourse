@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width : 50%;
+    border : 1px solid #ddd;
+    padding : 20px;
+    margin : 0 auto;
+}
+
+input, select, textarea {
+    width : 100%;
+    padding : 10px;
+    margin : 10px 0;
+    border : 1px solid lightcoral;
+    border-radius : 5px;
+}
+
+textarea {
+    resize : none;
+}
+
+input[type="submit"] {
+    background-color: lightcoral;
+    color : #fff;
+    cursor : pointer;
+}
+
+input[type="submit"]:hover {
+    background-color :lightseagreen;
+}
+
+input[type="email"] {
+    border : 3px dashed green;
+}
+
+input[type="email"]:hover {
+    border : none;
+    border-bottom : 3px solid green;
+}
+
+input[type="email"]:focus {
+    background-color : orange;
+    outline : none;
+}
+
+input[type="search"] {
+    background-image : url("search.png");
+    background-repeat : no-repeat;
+    background-position : 10px 10px;
+    padding-left : 40px;
+    width : 20%;
+    display : block;
+    transition : width .7s ease-in-out;
+}
+
+input[type="search"]:hover {
+    width : 100%;
+}

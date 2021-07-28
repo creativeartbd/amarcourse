@@ -1,0 +1,16 @@
+div {
+    width : 200px; 
+    height : 100px;
+    border : 2px solid red;
+    overflow : auto;
+    overflow-x : hidden;
+}
+
+/* 
+
+visible 
+hidden
+scroll
+auto
+
+*/

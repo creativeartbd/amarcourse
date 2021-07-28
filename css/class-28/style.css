@@ -1,0 +1,36 @@
+ul.menu {
+    border : 1px solid green;
+    padding : 0;
+    margin : 0;
+    background-color : rgb(128, 240, 229);
+    /* display : flex; */
+    border-radius : 5px;
+    overflow : hidden;
+    position : fixed;
+    bottom : 0;
+    width : 100%;
+}
+
+ul.menu li {
+    list-style-type : none;
+    /* display : inline-block; */
+    float : left;
+    border-right : 2px solid rgb(255, 196, 0);
+    background-color : blue;
+}
+
+ul.menu li:last-child {
+    border-right : none;
+    background-color : purple;
+}
+
+ul.menu li:hover {
+    background-color : lightseagreen;
+}
+
+ul.menu li a {
+    text-decoration : none;
+    padding : 20px;
+    display : inline-block;
+    color : #fff;
+}

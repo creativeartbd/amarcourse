@@ -1,0 +1,69 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?eec37c558c8df73b6fc1971c1a3bb3a7") format("truetype"),
+url("./flaticon.woff?eec37c558c8df73b6fc1971c1a3bb3a7") format("woff"),
+url("./flaticon.woff2?eec37c558c8df73b6fc1971c1a3bb3a7") format("woff2"),
+url("./flaticon.eot?eec37c558c8df73b6fc1971c1a3bb3a7#iefix") format("embedded-opentype"),
+url("./flaticon.svg?eec37c558c8df73b6fc1971c1a3bb3a7#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "burger": "\f101",
+    "snack": "\f102",
+    "cocktail": "\f103",
+    "twitter": "\f104",
+    "facebook": "\f105",
+    "linkedin": "\f106",
+    "instagram": "\f107",
+    "maps-and-flags": "\f108",
+    "phone-call": "\f109",
+    "email": "\f10a",
+    "share-option": "\f10b",
+);
+
+.flaticon-burger:before {
+    content: map-get($flaticon-map, "burger");
+}
+.flaticon-snack:before {
+    content: map-get($flaticon-map, "snack");
+}
+.flaticon-cocktail:before {
+    content: map-get($flaticon-map, "cocktail");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-maps-and-flags:before {
+    content: map-get($flaticon-map, "maps-and-flags");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-share-option:before {
+    content: map-get($flaticon-map, "share-option");
+}
