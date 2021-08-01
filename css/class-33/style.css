@@ -8,6 +8,10 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration : none;
+}
+
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #fff;
 }
@@ -818,3 +822,45 @@ header .nav ul li:last-child a{
     font-size : 16px;
 }
 /* End Footer Section */
+
+/* Footer bootom secton */
+#footer-bottom {
+    width : 100%;
+    padding-top : 30px; 
+    padding-bottom : 30px;
+}
+
+#footer-bottom p {
+    font-size : 16px;
+    line-height : 24px;
+    font-weight : 400;
+    text-align: center;
+}
+
+#footer-bottom a {
+    font-size : 16px;
+    line-height : 24px;
+    font-weight : 400;
+    color : #fbaf32;
+    text-decoration : none;
+}
+
+.click-to-top {
+    background-color: #fbaf32;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 70px;
+    position : fixed;
+    bottom : 15px;
+    right : 15px;
+    display : none;
+    z-index: 99;
+}
+
+.click-to-top i {
+    font-size : 30px;
+    color : #fff;
+}
+/* End footer bottom section */

@@ -1,0 +1,12 @@
+.box {
+    border : 10px solid green;
+    padding : 10px;
+    /* border-image-source : url("b-3.png");
+    border-image-slice : 137;
+    border-image-width : 10px;
+    border-image-outset : 3px;
+    border-image-repeat : stretch; */
+    background-color : lightsalmon;
+    border-image : url("b-3.png") 137 / 10px / 3px stretch;
+
+}

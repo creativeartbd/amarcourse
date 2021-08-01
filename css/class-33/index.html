@@ -279,5 +279,37 @@
     </div>
 </section>
 
+<a href="" class="click-to-top">
+    <i class="flaticon-upload"></i>
+</a>
+
+<!-- End Footer Section  -->
+
+<!-- Footer bottom section -->
+<section id="footer-bottom">
+    <p>Copyright &copy; <a href="#">Your Site Name</a>, All Right Reserved. Designed By HTML <a href="">Amarcourse</a></p>
+</section>
+<!-- End footer bottom section -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+(function($) {
+    $(window).scroll(function() {
+        if( $(this).scrollTop() > 200 ) {
+            $(".click-to-top").fadeIn("slow");
+        } else {
+            $(".click-to-top").fadeOut("slow");
+        }
+    });
+
+    $(".click-to-top").click(function() {
+        $("html, body").animate( { scrollTop : 0 }, 1500, 'easeInOutExpo' );
+        return false;
+    });
+
+})(jQuery);
+</script>
 </body>
 </html>

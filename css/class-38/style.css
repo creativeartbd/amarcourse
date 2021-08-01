@@ -1,0 +1,16 @@
+/* 
+background-image: radial-gradient(shape size at position, start-color, ..., last-color);
+
+Shape = circle |  ellipse
+Size = closest-side |  farthest-side |  closest-corner | farthest-corner
+
+repeating-radial-gradient(red, yellow 10%, green 15%);
+
+*/
+
+.box {
+    border : 1px solid red;
+    padding : 20px;
+    /* background-image : radial-gradient(closest-corner at 30% 70%, red 10%, yellow 20%, blue, salmon); */
+    background-image : repeating-radial-gradient(red, green 5%, blue 10%, orange 20%);
+}

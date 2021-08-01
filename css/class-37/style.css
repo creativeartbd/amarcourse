@@ -1,0 +1,21 @@
+.box {
+    padding : 20px;
+    border : 1px solid red;
+    color : #000;
+    /* background-image : linear-gradient( orange, salmon); */
+    /* background-image : linear-gradient(to right, blue, salmon); */
+    /* background-image : linear-gradient(to top right, blue, salmon); */
+    /* background-image : linear-gradient( to right, blue, salmon, green, yellow); */
+    /* background-image : linear-gradient( to right, rgba(241, 220, 31, 0), salmon, green, rgba(255, 255, 0, 0), orange); */
+    background-image : repeating-linear-gradient(red, green 10%, blue 20%, salmon 30%);
+}
+
+/* 
+
+direction = top bottom 
+            to right
+            to bottom right
+            to top right
+            degree
+
+*/

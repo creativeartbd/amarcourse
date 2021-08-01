@@ -1,0 +1,20 @@
+.one {
+    text-shadow : 5px 9px;
+    font-size : 70px;
+}
+
+.two {
+    text-shadow : 5px 9px blue;
+    font-size : 70px;
+}
+
+.three {
+    text-shadow : 5px 9px 9px blue;
+    font-size : 70px;
+}
+
+.four {
+    text-shadow : -5px -9px 9px blue, 5px 9px 9px orange;
+    font-size : 70px;
+    color : #fff;
+}

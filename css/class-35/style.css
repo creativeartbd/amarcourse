@@ -1,0 +1,38 @@
+.box {
+    background-color : orange; 
+    margin : 50px;
+    border-radius : 20px;
+    padding : 20px;
+}
+
+.box2 {
+    background-color : lightgreen;
+    margin : 50px;
+    padding : 20px;
+    border-top-right-radius : 50px;
+    border-top-left-radius : 50px;
+    border-bottom-right-radius : 20px;
+    border-bottom-left-radius : 20px;
+}
+
+.box3 {
+    border : 2px solid red;
+    margin : 50px; 
+    padding : 20px;
+    border-top-left-radius : 50px;
+}
+
+.circle p {
+    padding : 0; 
+    margin : 0;
+}
+
+.circle {
+    border : 1px solid red;
+    width : 100px; 
+    height : 100px;
+    line-height : 100px;
+    text-align : center;
+    border-radius: 100%;
+    background-color : lightsalmon;
+}
