@@ -1,0 +1,203 @@
+/* Transform style properties  */
+
+.transform-style-parent {
+    background-color: #ddd;
+    padding : 10px; 
+    float: left;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    position: relative;
+    width : 150px;
+    height : 150px;
+}
+
+.transform-style-parent .box1 {
+    border : 10px solid black; 
+    background-color : lightseagreen;
+    padding : 10px; 
+    width : 100px;
+    height : 100px;
+    position : absolute;
+    transform : rotateX(30deg);
+    transform-style: preserve-3d;
+}
+
+.transform-style-parent .box2 {
+    border : 10px solid black; 
+    background-color : yellow;
+    padding : 10px; 
+    width : 50px;
+    height : 50px;
+    position : absolute;
+    transform : rotateX(30deg);
+    box-shadow: 1px 1px 1px 1px #ddd;
+   
+}
+
+/* Transform origin properties  */
+
+.transform-origin-parent {
+    background-color: #ddd;
+    padding : 10px; 
+    float: left;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.transform-origin-parent .box1 {
+    border : 10px solid black; 
+    background-color : lightseagreen;
+    padding : 10px; 
+    width : 100px;
+    height : 100px;
+    transform : perspective(500px) rotate(30deg);
+    transform-origin : 50% 30% 1000px;
+}
+
+/* Scae methods  */
+
+.scale-parent {
+    background-color: #ddd;
+    padding : 10px; 
+    float: left;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.scale-parent .box1 {
+    border : 10px solid black; 
+    background-color : lightseagreen;
+    padding : 10px; 
+    width : 100px;
+    height : 100px;
+    transform : scaleX(1.5);
+}
+
+.scale-parent .box2 {
+    border : 10px solid black; 
+    background-color : lightseagreen;
+    padding : 10px; 
+    width : 100px;
+    height : 100px;
+    transform : scaleY(1.5);
+}
+
+.scale-parent .box3 {
+    border : 10px solid black; 
+    background-color : lightseagreen;
+    padding : 10px; 
+    width : 100px;
+    height : 100px;
+    transform : perspective(500px) scaleZ(7) rotateX(45deg);
+}
+
+.scale-parent .box4 {
+    border : 10px solid black; 
+    background-color : lightseagreen;
+    padding : 10px; 
+    width : 100px;
+    height : 100px;
+    transform : perspective(551px) scale3d(1,2,-4) rotateX(238deg);
+}
+
+/* Rotate  */
+
+.rotate-parent {
+    background-color: #ddd;
+    padding : 10px; 
+    float: left;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.rotate-parent .box1 {
+    border : 10px solid black; 
+    background-color : blue;
+    padding : 10px; 
+    width : 100px;
+    height : 100px;
+    transform : rotateX(60deg);
+}
+
+.rotate-parent .box2 {
+    border : 10px solid black; 
+    background-color : blue;
+    padding : 10px; 
+    width : 100px;
+    height : 100px;
+    transform : rotateY(60deg);
+}
+
+.rotate-parent .box3 {
+    border : 10px solid black; 
+    background-color : blue;
+    padding : 10px; 
+    width : 100px;
+    height : 100px;
+    transform : rotateZ(60deg);
+}
+
+.rotate-parent .box4 {
+    border : 10px solid black; 
+    background-color : blue;
+    padding : 10px; 
+    width : 100px;
+    height : 100px;
+    transform : perspective(200px) rotate3d(0, 1, 0, 60deg);
+}
+
+/* Translate  */
+
+.translate-parent {
+    background-color: #ddd;
+    padding : 10px; 
+    float: left;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.translate-parent .box1 {
+    border : 10px solid red; 
+    background-color : salmon;
+    padding : 10px; 
+    width : 100px;
+    height : 100px;
+    transform : translateX(100px);
+}
+
+.translate-parent .box2 {
+    border : 10px solid lightslategray; 
+    background-color : salmon;
+    padding : 10px; 
+    width : 100px;
+    height : 100px;
+    transform : translateY(100px);
+}
+
+.translate-parent .box3 {
+    border : 10px solid red; 
+    background-color : salmon;
+    padding : 10px; 
+    width : 100px;
+    height : 100px;
+    transform : perspective(200px) translateZ(-50px);
+}
+
+.translate-parent .box4 {
+    border : 10px solid red; 
+    background-color : salmon;
+    padding : 10px; 
+    width : 100px;
+    height : 100px;
+    transform : perspective(200px) translate3d(100px, 100px, 100px);
+}
+
+h2 {
+    display : block; 
+    clear: both;
+}

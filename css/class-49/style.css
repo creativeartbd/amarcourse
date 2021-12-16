@@ -1,0 +1,35 @@
+.row {
+    display : flex;
+    flex-wrap : wrap;
+    border : 1px solid red;
+}
+
+.column {
+    flex : 25%;
+    max-width: 25%;
+    padding : 0 10px;
+    border : 1px solid green;
+}
+
+img {
+    width: 100%;
+    margin-top : 10px;
+}
+
+* {
+    box-sizing:  border-box;
+}
+
+@media screen and ( max-width : 767px ) {
+    .column {
+        flex : 50%;
+        max-width : 50%;
+    }
+}
+
+@media screen and ( max-width : 567px ) {
+    .column {
+        flex : 100%;
+        max-width : 100%;
+    }
+}

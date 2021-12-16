@@ -1,0 +1,110 @@
+body {
+    background-color: skyblue;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and ( max-width : 500px ) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and ( max-width : 700px ) {
+    body {
+        background-color : red;
+    }
+}
+
+ul {
+    padding : 0;
+    margin : 0;
+    overflow : hidden;
+}
+
+ul li {
+    float : left ;
+    list-style : none;
+}
+
+ul li a {
+    text-decoration: none;
+    padding : 10px; 
+    border : 1px solid red; 
+    background-color : yellow;
+    color : #000;
+    display : inline-block;
+}
+
+@media screen and ( max-width : 700px ) {
+    ul li {
+        float : none;
+    }
+
+    ul li a {
+        width : 100%;
+    }
+}
+
+@media screen and ( max-width : 500px ) {
+    ul li a {
+        background-color: green;
+        color : #fff;
+    }
+}
+
+.row {
+    margin-bottom : 30px;
+    border : 1px solid yellow;
+    overflow : hidden;
+}
+
+.column {
+    width : 25%;
+    border : 1px solid white; 
+    padding : 10px;
+    float : left;
+}
+
+@media screen and ( max-width : 767px ) {
+    .column {
+        width : 50%;
+    }
+
+    .login {
+        display : none;
+    }
+}
+
+@media screen and ( max-width : 576px ) {
+    .column {
+        width : 100%;
+    }
+}
+
+@media screen and ( orientation : landscape ) {
+    body {
+        background-color: salmon;
+    }
+}
+
+@media screen and ( min-width : 800px ) {
+    .column {
+        font-size : 20px; 
+        font-weight: bold;
+    }
+}
+
+@media screen and ( max-width : 900px ) and ( min-width : 650px ) {
+    .column {
+        text-shadow: 1px 1px 1px #000;
+    }
+}
+
+@media screen and ( max-width : 900px ) and ( min-width : 650px ), ( max-width : 300px ) {
+    .column {
+        text-shadow: 1px 1px 1px #000;
+    }
+}

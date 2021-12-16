@@ -1,28 +1,9 @@
-div {
-    border : 1px solid salmon;
-    padding : 10px;
-    width : 200px; 
-    margin : 0 auto 10px auto;
+@font-face {
+    font-family : "Lemon Drink"; 
+    src : url("fonts/lemon drink.ttf");
 }
 
-.box-one {
-    box-shadow : 3px 3px;
-}
-
-.box-two {
-    box-shadow : 3px 3px orange;
-}
-
-.box-three {
-    box-shadow : 3px 3px 15px orange;
-}
-
-.box-four {
-    box-shadow: 76px 61px 88px 4px rgba(243,116,116,0.4);
-    -webkit-box-shadow: 76px 61px 88px 4px rgba(243,116,116,0.4);
-    -moz-box-shadow: 76px 61px 88px 4px rgba(243,116,116,0.4);
-}
-
-.box-five {
-    box-shadow : 3px 3px 15px blue, -5px -5px 20px green;
+h3 {
+    font-family: "Lemon Drink", arial;
+    font-style: italic;
 }

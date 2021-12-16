@@ -1,0 +1,22 @@
+.transtions {
+    width : 200px; 
+    height : 200px; 
+    background-color : orange;
+    color : white;
+    text-align : center; 
+    line-height : 200px;
+    
+    /* transition-property : width;
+    transition-duration : 3s;
+    transition-delay : 2s;
+    transition-timing-function : linear ; */
+
+    transition : width 3s, color 3s, font-size 3s, transform 3s;
+}
+
+.transtions:hover {
+    width : 300px;
+    color : black;
+    font-size : 30px;
+    transform : rotate(360deg);
+}

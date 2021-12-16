@@ -1,0 +1,107 @@
+.btn-group button {
+    background-color : skyblue;
+    border : none;
+    padding : 10px;
+    font-size : 13px;
+    /* float : left; */
+    display : block;
+    border-right : 1px solid white;
+    width : 200px;
+    border-bottom : 1px solid #fff;
+}
+
+.btn-group button:hover {
+    background-color : blue;
+    color : white;
+    cursor : pointer;
+}
+
+.btn-group {
+    width : 100%;
+    float : left;
+    margin-bottom : 10px;
+}
+
+.large, .medium, .small {
+    color : #fff;
+    padding : 15px;
+    font-size : 15px;
+    cursor : pointer;
+    border-radius : 10px;
+    cursor : not-allowed;
+    /* display : inline-block; */
+}
+
+.large {
+    background-color: yellow;
+    color : black;
+    width : 100%;
+}
+
+.medium {
+    background-color: blue;
+    color : white;
+    width : 50%;
+}
+
+.small {
+    background-color: red;
+    color : white;
+    width : 25%;
+}
+
+
+.disable {
+    color : #fff;
+    padding : 15px;
+    font-size : 15px;
+    cursor : pointer;
+    border-radius : 10px;
+    background-color : purple;
+    opacity : 0.5;
+    cursor : not-allowed;
+}
+
+.btn {
+    border :1px solid slateblue;
+    color : black;
+    padding : 15px;
+    font-size : 15px;
+    cursor : pointer;
+    border-radius : 10px;
+    background-color : white;
+}
+
+.btn:hover {
+    background-color : salmon;
+    color : white;
+    box-shadow : 2px 2px 2px 2px blue;
+}
+
+.forget {
+    background-color :darksalmon;
+    border : none;
+    color : white;
+    padding : 15px;
+    font-size : 15px;
+    cursor : pointer;
+    border-radius : 10px;
+}
+
+.login {
+    background-color : blueviolet;
+    border : none;
+    color : white;
+    padding : 20px;
+    font-size : 15px;
+    cursor : pointer;
+}
+
+.registration {
+    background-color :crimson;
+    border : none;
+    color : white;
+    padding : 20px 30px;
+    font-size : 25px;
+    cursor : pointer;
+}
