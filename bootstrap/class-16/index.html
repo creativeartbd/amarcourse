@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Tutorial - Bootstrap Dropdown</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quas blanditiis deserunt eos dignissimos sint pariatur doloribus, nam, officiis ex asperiores totam sapiente eligendi excepturi architecto cupiditate sunt eum impedit?</p>
+        </div>
+        <div class="col-md-6">
+            <div class="btn-group-vertical">
+                <button type="button" class="btn btn-info">Home</button>
+                <button type="button" class="btn btn-info">About Us</button>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown">Services</button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="dropdown-item">Web Development</a></li>
+                        <li><a href="#" class="dropdown-item disabled">Web Design</a></li>
+                        <li><a href="#" class="dropdown-item active">Graphics Design</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="btn-group">
+                <button type="button" class="btn btn-info">Home</button>
+                <button type="button" class="btn btn-info">About Us</button>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown">Services</button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="dropdown-item">Web Development</a></li>
+                        <li><a href="#" class="dropdown-item disabled">Web Design</a></li>
+                        <li><a href="#" class="dropdown-item active">Graphics Design</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus accusamus officia dolore quasi, nesciunt, pariatur, repellendus esse assumenda cum eum laudantium in iure? Dolorum quasi vero debitis repellat inventore sed?</p> 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, similique at error harum officia porro sed quisquam tempora maiores odio quia id blanditiis repellat minus doloremque ea sequi expedita in.</p>
+        </div>
+        <div class="col-md-4">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim consequatur, vel quo totam illum labore iusto voluptates placeat laboriosam. Magnam, animi officia totam sequi facere eos quas veniam tenetur nulla?</p>
+        </div>
+        <div class="col-md-4">
+            <h1>We are learning bootstrap dropdown class.</h1>
+            
+            <div class="dropdown dropup">
+                <button type="button" class="dropdown-toggle btn btn-info" data-bs-toggle="dropdown">
+                    List of Countries
+                </button>
+                <ul class="dropdown-menu">
+                    <li><h2 class="dropdown-header">This is header</h2></li>
+                    <li><a href="#" class="dropdown-item">Bangladesh</a></li>
+                    <li><a href="#" class="dropdown-item disabled">India</a></li>
+                    <li><a href="#" class="dropdown-item active">America</a></li>
+                    <li><a href="#" class="dropdown-item">Canada</a></li>
+                    <li><a href="#" class="dropdown-item-text">This is plain text</a></li>
+                    <li><h2 class="dropdown-header">This is another header</h2></li>
+                    <li><hr class="dropdown-divider"></hr></li>
+                    <li><a class="dropdown-item">Check the above countries</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

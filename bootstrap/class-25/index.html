@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Toast - Bootstrap Tutorial</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <style>
+        .amar-custom-css-class {
+            position: fixed;
+            bottom: 0;
+            right : 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+            <button id="mytoast" class="btn btn-info">Show My Toast</button>
+
+            <div class="toast amar-custom-css-class" id="toast">
+                <div class="toast-header">
+                    <h3>Here is our toast header</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+                </div>
+                <div class="toast-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quae eveniet praesentium consequatur voluptate molestias corporis, veritatis amet! Quibusdam velit molestias sapiente laboriosam. At excepturi saepe obcaecati numquam earum cupiditate!</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script>
+var toastTrigger = document.getElementById('mytoast')
+var toastLiveExample = document.getElementById('toast')
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', function () {
+    var toast = new bootstrap.Toast(toastLiveExample)
+    toast.show()
+  })
+}
+</script>
+</body>
+</html>
